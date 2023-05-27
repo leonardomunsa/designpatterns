@@ -7,4 +7,6 @@ interface boxerBuilder
     public function throwAPunch();
 
     public function punchTheBag();
+
+    public function jumpRow();
 }

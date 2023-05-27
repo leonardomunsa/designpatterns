@@ -3,6 +3,16 @@
 class BrawlerBuilder implements boxerBuilder
 {
     private $guard;
+    private $life;
+    private $damage;
+    private $speed;
+
+    public function __construct()
+    {
+        $this->life = 100;
+        $this->damage = 20;
+        $this->speed = 40;
+    }
 
     public function learnGuard()
     {
@@ -17,5 +27,10 @@ class BrawlerBuilder implements boxerBuilder
     public function punchTheBag()
     {
         return 'one - two';
+    }
+
+    public function jumpRow()
+    {
+        return 'jump row';
     }
 }
