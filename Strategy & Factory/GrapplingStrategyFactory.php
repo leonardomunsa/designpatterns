@@ -12,7 +12,7 @@ class GrapplingStrategyFactory
             case 'Judo':
                 return new JudoGrappling();
             default:
-                return 'This is striking. Learn how to grapple'    
+                return 'This is striking. Learn how to grapple';
         }
     }
 }
